@@ -1,16 +1,9 @@
 # displayname
+Submission for stage2 task.
+![image](https://user-images.githubusercontent.com/64266194/130170319-5f05e833-212d-4cbc-b790-593968881959.png)
 
-A new Flutter project.
+This program is sponsored by HNG. Go to https://hng.tech/ to find out more.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/64266194/130170028-a42b3e71-6f3b-49fe-a4db-e7d443dfe2df.mp4
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
