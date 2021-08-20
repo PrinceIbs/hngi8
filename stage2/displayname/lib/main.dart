@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'HNG',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Display Input'),
+      home: MyHomePage(title: 'Stage 2 Task'),
     );
   }
 }
@@ -46,21 +46,42 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                '$_input',
-                style: Theme.of(context).textTheme.headline4,
-              ),
-              TextField(
-                controller: inputController,
-              ),
-              ElevatedButton(
-                onPressed: _updateInput,
-                child: Text("Enter"),
-              ),
-            ],
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                SizedBox(height: 10),
+                Text("Welcome to "),
+                SizedBox(height: 10),
+                Image(image: AssetImage("images/hnglogo.jpg")),
+                SizedBox(height: 10),
+                Text("Visit"),
+                //SizedBox(height: 10),
+                Text(
+                  "https://internship.zuri.team",
+                  style: TextStyle(color: Colors.blue),
+                ),
+                //SizedBox(height: 10),
+                Text("for more info"),
+                SizedBox(height: 10),
+                Container(
+                  width: MediaQuery.of(context).size.width,
+                  color: Colors.grey[350],
+                  child: Text(
+                    '$_input',
+                    style: Theme.of(context).textTheme.headline4,
+                  ),
+                ),
+                TextField(
+                  controller: inputController,
+                  decoration: InputDecoration(hintText: "Say something..."),
+                ),
+                ElevatedButton(
+                  onPressed: _updateInput,
+                  child: Text("Enter"),
+                ),
+              ],
+            ),
           ),
         ),
       ),
