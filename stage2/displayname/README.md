@@ -5,5 +5,8 @@ Submission for stage2 task.
 This program is sponsored by HNG. Go to https://hng.tech/ to find out more.
 
 
-https://user-images.githubusercontent.com/64266194/130170028-a42b3e71-6f3b-49fe-a4db-e7d443dfe2df.mp4
+
+
+https://user-images.githubusercontent.com/64266194/130247512-e46b4e89-44e0-4698-bb84-85416cf52ae9.mp4
+
 
